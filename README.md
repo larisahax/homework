@@ -15,7 +15,7 @@ We approximate S(l) through a piecewise linear function.
 
 To calculate the RGB values we compute the integral of product of the visible spectrum S(l) and the kernels R(l), G(l), B(l) for red, green and blue values correspondingly:
 
-![equation](http://www.sciweavers.org/tex2img.php?eq=R%20%3D%20%5Cint_%7B400%7D%5E%7B700%7D%20S%28l%29%20R%28l%29dl%2C%5Cquad%0AG%20%3D%20%5Cint_%7B400%7D%5E%7B700%7D%20S%28l%29%20G%28l%29dl%2C%5Cquad%0AB%20%3D%20%5Cint_%7B400%7D%5E%7B700%7D%20S%28l%29%20B%28l%29dl%20%0A&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)
+![equation](https://latex.codecogs.com/gif.latex?R&space;=&space;\int_{400}^{700}&space;S(l)&space;R(l)&space;dl,&space;\quad&space;G&space;=&space;\int_{400}^{700}&space;S(l)&space;G(l)&space;dl,&space;\quad&space;B&space;=&space;\int_{400}^{700}&space;S(l)&space;B(l)&space;dl)
 
 The kernels were taken from http://stackoverflow.com/questions/3407942/rgb-values-of-visible-spectrum
 
